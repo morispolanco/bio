@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analizador de Resultados Bioquímicos</title>
+    <link rel="stylesheet" href="/src/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Analizador de Resultados Bioquímicos</h1>
+        </header>
+        
+        <main>
+            <div class="input-section">
+                <h2>Ingrese los Resultados del Laboratorio</h2>
+                <textarea id="labResults" placeholder="Ingrese los resultados del laboratorio aquí..."></textarea>
+                <button id="analyzeBtn" class="primary-btn">Analizar Resultados</button>
+            </div>
+
+            <div class="results-section">
+                <h2>Análisis</h2>
+                <div id="analysisResult" class="analysis-container">
+                    <p class="placeholder-text">Los resultados del análisis aparecerán aquí...</p>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>© 2024 Analizador de Resultados Bioquímicos</p>
+        </footer>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+</body>
+</html>
